@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FptBook_TestSuite,Chrome 92.0.4515.159,,,2021-11-05 09:01:36,2021-11-05 09:03:00,1m - 23.986s,FAILED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_Screenshot_EmptyCart,Chrome 92.0.4515.159,,,2021-11-05 09:01:39,2021-11-05 09:02:08,28.829s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-11-05 09:01:43,2021-11-05 09:01:51,7.991s,PASSED
+"navigateToUrl(""http://fptbookstore.slimair.cool/"")",Chrome 92.0.4515.159,,,2021-11-05 09:01:51,2021-11-05 09:01:56,5.504s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-11-05 09:01:56,2021-11-05 09:01:56,0.272s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Login""))",Chrome 92.0.4515.159,,,2021-11-05 09:01:56,2021-11-05 09:01:58,2.061s,PASSED
+"setText(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Email_Input.Email""), ""phuongnnse@fpt.edu.vn"")",Chrome 92.0.4515.159,,,2021-11-05 09:01:59,2021-11-05 09:02:00,1.223s,PASSED
+"setEncryptedText(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password""), ""rBiF04Ek6lW1rw3U6XrRJA=="")",Chrome 92.0.4515.159,,,2021-11-05 09:02:00,2021-11-05 09:02:01,1.303s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:01,2021-11-05 09:02:04,2.493s,PASSED
+delay(3),Chrome 92.0.4515.159,,,2021-11-05 09:02:04,2021-11-05 09:02:07,3.158s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Cart(1)""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:07,2021-11-05 09:02:08,1.014s,FAILED
+Start tear down : tearDown,Chrome 92.0.4515.159,,,2021-11-05 09:02:08,2021-11-05 09:02:08,0.371s,PASSED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart,Chrome 92.0.4515.159,,,2021-11-05 09:02:08,2021-11-05 09:02:35,26.434s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-11-05 09:02:10,2021-11-05 09:02:12,1.705s,PASSED
+"navigateToUrl(""http://fptbookstore.slimair.cool/"")",Chrome 92.0.4515.159,,,2021-11-05 09:02:12,2021-11-05 09:02:17,5.266s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-11-05 09:02:17,2021-11-05 09:02:18,0.171s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Login""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:18,2021-11-05 09:02:19,1.498s,PASSED
+"setText(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Email_Input.Email""), ""phuongnnse@fpt.edu.vn"")",Chrome 92.0.4515.159,,,2021-11-05 09:02:19,2021-11-05 09:02:20,1.159s,PASSED
+"setEncryptedText(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password""), ""rBiF04Ek6lW1rw3U6XrRJA=="")",Chrome 92.0.4515.159,,,2021-11-05 09:02:20,2021-11-05 09:02:21,0.784s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:21,2021-11-05 09:02:23,2.076s,PASSED
+delay(3),Chrome 92.0.4515.159,,,2021-11-05 09:02:23,2021-11-05 09:02:26,3.019s,PASSED
+"scrollToElement(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/img_Book""), 10)",Chrome 92.0.4515.159,,,2021-11-05 09:02:26,2021-11-05 09:02:27,0.682s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/img_Book""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:27,2021-11-05 09:02:28,1.513s,PASSED
+"setText(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Quantity_AddToCartInput.Count""), ""4"")",Chrome 92.0.4515.159,,,2021-11-05 09:02:28,2021-11-05 09:02:29,1.042s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Add to cart""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:29,2021-11-05 09:02:31,1.832s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-11-05 09:02:31,2021-11-05 09:02:33,2.028s,PASSED
+"click(findTestObject(""FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_Cart(1)""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:33,2021-11-05 09:02:34,1.049s,FAILED
+Start tear down : tearDown,Chrome 92.0.4515.159,,,2021-11-05 09:02:34,2021-11-05 09:02:35,0.397s,PASSED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_ScreenShot_Different_ProductCart,Chrome 92.0.4515.159,,,2021-11-05 09:02:35,2021-11-05 09:03:00,25.723s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.159,,,2021-11-05 09:02:37,2021-11-05 09:02:39,1.276s,PASSED
+maximizeWindow(),Chrome 92.0.4515.159,,,2021-11-05 09:02:39,2021-11-05 09:02:39,0.133s,PASSED
+"navigateToUrl(""http://fptbookstore.slimair.cool/"")",Chrome 92.0.4515.159,,,2021-11-05 09:02:39,2021-11-05 09:02:44,5.355s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/a_Login""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:44,2021-11-05 09:02:45,1.293s,PASSED
+"setText(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/input_Email_Input.Email""), ""phuongnnse@fpt.edu.vn"")",Chrome 92.0.4515.159,,,2021-11-05 09:02:45,2021-11-05 09:02:47,1.305s,PASSED
+"setEncryptedText(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password""), ""rBiF04Ek6lW1rw3U6XrRJA=="")",Chrome 92.0.4515.159,,,2021-11-05 09:02:47,2021-11-05 09:02:47,0.794s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:47,2021-11-05 09:02:50,2.231s,PASSED
+"scrollToElement(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/img_Product""), 10)",Chrome 92.0.4515.159,,,2021-11-05 09:02:50,2021-11-05 09:02:51,0.845s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/img_Product""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:51,2021-11-05 09:02:52,1.590s,PASSED
+delay(3),Chrome 92.0.4515.159,,,2021-11-05 09:02:52,2021-11-05 09:02:55,3.019s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/price_Product""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:55,2021-11-05 09:02:56,0.639s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/button_Add to cart""))",Chrome 92.0.4515.159,,,2021-11-05 09:02:56,2021-11-05 09:02:58,1.772s,PASSED
+delay(2),Chrome 92.0.4515.159,,,2021-11-05 09:02:58,2021-11-05 09:03:00,2.021s,PASSED
+"click(findTestObject(""Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/a_Cart(1)""))",Chrome 92.0.4515.159,,,2021-11-05 09:03:00,2021-11-05 09:03:00,0.848s,FAILED
