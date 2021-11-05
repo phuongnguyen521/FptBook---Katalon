@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FptBook_TestSuite,,,,2021-11-05 09:36:36,2021-11-05 09:39:57,3m - 20.858s,FAILED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_Screenshot_EmptyCart,,,,2021-11-05 09:36:38,2021-11-05 09:37:49,1m - 11.202s,FAILED
+"openBrowser("""")",,,,2021-11-05 09:36:41,2021-11-05 09:37:49,1m - 7.886s,FAILED
+Start tear down : tearDown,,,,2021-11-05 09:37:49,2021-11-05 09:37:49,0.171s,PASSED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart,,,,2021-11-05 09:37:49,2021-11-05 09:38:53,1m - 3.678s,FAILED
+"openBrowser("""")",,,,2021-11-05 09:37:52,2021-11-05 09:38:53,1m - 1.040s,FAILED
+Start tear down : tearDown,,,,2021-11-05 09:38:53,2021-11-05 09:38:53,0.107s,PASSED
+,,,,,,,
+Test Cases/FptBook/FptBook_Automation_ScreenShot_Different_ProductCart,,,,2021-11-05 09:38:53,2021-11-05 09:39:57,1m - 3.952s,FAILED
+"openBrowser("""")",,,,2021-11-05 09:38:56,2021-11-05 09:39:57,1m - 1.432s,FAILED
