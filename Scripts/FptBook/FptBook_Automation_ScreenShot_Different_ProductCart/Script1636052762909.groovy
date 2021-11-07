@@ -45,7 +45,8 @@ WebUI.click(findTestObject('Fpt_Different_Product_Cart_Repo/Page_Home  FptBookSt
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/input_Quantity_AddToCart_The overdue life of army'), '2')
+WebUI.setText(findTestObject('Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/input_Quantity_AddToCart_The overdue life of army'), 
+    '4')
 
 WebUI.delay(2)
 
