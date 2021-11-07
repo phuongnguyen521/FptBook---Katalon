@@ -18,12 +18,6 @@
       <testCaseId>Test Cases/FptBook/FptBook_Automation_Screenshot_EmptyCart</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eac2824b-49d6-4ecd-a200-fec8eb5b57bf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FptBook/FptBook_Automation_ScreenShot_ProductCart</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>232643a5-0934-457a-88c0-c21a24f0b261</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

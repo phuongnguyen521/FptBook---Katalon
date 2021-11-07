@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Quantity_The Last Sister</name>
+   <name>input_Quantity_AddToCart_The overdue life of army</name>
    <tag></tag>
-   <elementGuidId>6ad591d1-a574-4b95-8630-050842f79e3b</elementGuidId>
+   <elementGuidId>97b89738-2e2c-49de-8a35-18824d68fc3e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#AddToCartInput_Count</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='AddToCartInput_Count']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#AddToCartInput_Count</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

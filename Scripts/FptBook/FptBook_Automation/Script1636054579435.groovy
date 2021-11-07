@@ -28,7 +28,8 @@ WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_
 
 WebUI.setText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Email_Input.Email'), 'phuongnnse@fpt.edu.vn')
 
-WebUI.setEncryptedText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password'), 'rBiF04Ek6lW1rw3U6XrRJA==')
+WebUI.setEncryptedText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/input_Password_Input.Password'), 
+    'rBiF04Ek6lW1rw3U6XrRJA==')
 
 WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/button_Log in'))
 
@@ -52,13 +53,10 @@ WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/a_
 
 price_Name = WebUI.getText(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/price_Product_Cart'))
 
-
-WebUI.verifyNotEqual(price_Product, price_Name)
- 
-
-//WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/product_Cart'))
+WebUI.verifyEqual(price_Product, price_Name) //WebUI.click(findTestObject('FptBook_Product_Cart_Repo/Page_Home  FptBookStore/product_Cart'))
 
 @TearDown
 def tearDown() {
-WebUI.closeBrowser()
+    WebUI.closeBrowser()
 }
+
