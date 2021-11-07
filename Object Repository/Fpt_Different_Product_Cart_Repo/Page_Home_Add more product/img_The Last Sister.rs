@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_The Last Sister</name>
+   <tag></tag>
+   <elementGuidId>619d99db-251a-4392-a6e5-4de0fcac8b8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pills-one-example1']/ul/li[2]/div/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>\image\product\img2.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-fluid d-block mx-auto attachment-shop_catalog size-shop_catalog wp-post-image img-fluid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>image-description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pills-one-example1&quot;)/ul[@class=&quot;products list-unstyled row no-gutters row-cols-2 row-cols-lg-3 row-cols-wd-3 border-top border-left mb-6&quot;]/li[@class=&quot;product col&quot;]/div[@class=&quot;product__inner overflow-hidden p-4 p-md-4d875&quot;]/div[@class=&quot;fptbook-LoopProduct-link fptbook-loop-product__link d-block position-relative&quot;]/div[@class=&quot;fptbook-loop-product__thumbnail&quot;]/a[@class=&quot;d-block&quot;]/img[@class=&quot;img-fluid d-block mx-auto attachment-shop_catalog size-shop_catalog wp-post-image img-fluid&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pills-one-example1']/ul/li[2]/div/div/div/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='image-description'])[14]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div/a/img</value>
+   </webElementXpaths>
+</WebElementEntity>

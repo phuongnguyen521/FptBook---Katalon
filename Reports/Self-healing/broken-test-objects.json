@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/update/Page_Home  FptBookStore/svg_BookStoreFPT",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027ookStoreFPT\u0027 or . \u003d \u0027ookStoreFPT\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/update/Page_Home  FptBookStore/svg_BookStoreFPT_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Fpt_Different_Product_Cart_Repo/Page_Home_Add more product/svg_BookStoreFPT",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027ookStoreFPT\u0027 or . \u003d \u0027ookStoreFPT\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Fpt_Different_Product_Cart_Repo/Page_Home_Add more product/svg_BookStoreFPT_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/svg_BookStoreFPT",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027ookStoreFPT\u0027 or . \u003d \u0027ookStoreFPT\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/svg_BookStoreFPT_BASIC.png"
+    }
+  ]
 }

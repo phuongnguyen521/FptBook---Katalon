@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Cart(1)</name>
    <tag></tag>
-   <elementGuidId>988eafa0-7e53-45c3-8e57-acec6ffa1068</elementGuidId>
+   <elementGuidId>c2d0b456-2ffe-4bcb-9f51-69d5f101d939</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
