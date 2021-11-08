@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('http://fptbookstore.slimair.cool/')
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/a_Login'))
 

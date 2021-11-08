@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://fptbookstore.slimair.cool/')
-
-WebUI.click(findTestObject('Object Repository/Test Demo/Page_Home  FptBookStore/a_Login'))
-
-WebUI.setText(findTestObject('Object Repository/Test Demo/Page_Home  FptBookStore/input_Email_Input.Email'), 'phuongnn@fpt.edu.vn')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Test Demo/Page_Home  FptBookStore/input_Password_Input.Password'), 
-    'rBiF04Ek6lW1rw3U6XrRJA==')
-
-WebUI.click(findTestObject('Object Repository/Test Demo/Page_Home  FptBookStore/button_Log in'))
-
-WebUI.closeBrowser()
-
