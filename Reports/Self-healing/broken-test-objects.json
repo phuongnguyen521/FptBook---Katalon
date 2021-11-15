@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Fpt_Different_Product_Cart_Repo/Page_Home  FptBookStore/svg_BookStoreFPT_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CURA/Page_CURA Healthcare Service/input_Password_password",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027txt-password\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CURA/Page_CURA Healthcare Service/input_Password_password_attributes.png"
     }
   ]
 }
